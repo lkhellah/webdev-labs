@@ -14,8 +14,24 @@ li[class] {
   color: var(--red);
 }
 
-/* Use descendant, child, and sibling selectors for the second part */
+li[id="cat"] {  /*exact search*/
+  color: var(--teal);
+}
+
+li[class^='p'] { /*prefix search*/
+  color: var(--green);
+}
+
+li[class*='do'] { /*substring search*/
+  color: var(--royalblue);
+}
+
+li[class$='g'] { /*suffix search*/
+    color: var(--violet);
+}
 
 section li {
   color: var(--green);
 }
+
+/* Use descendant, child, and sibling selectors for the second part */
