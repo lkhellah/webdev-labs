@@ -24,21 +24,27 @@ Recreate the snapshot below using pseudo elements.
 Calculate the specificity of the rules below.
 
 ```css
+/* 0 - 1 - 2 */
 nav .list-item > a {
 }
 
+/* 1 - 0 - 1 */
 #main::first-letter {
 }
 
+/* 0 - 1 - 1 */
 input[type] {
 }
 
+/* 0 - 1 - 2 */
 section .main::first-line {
 }
 
+/* 1 - 2 - 4 */
 nav ul.menu li#first a:not([class='visited']) {
 }
 
+/* 0 - 0 - 10 */
 div ol li ul li ol li ul li a {
 }
 ```
