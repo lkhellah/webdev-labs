@@ -10,10 +10,10 @@
 
 /* Use attribute selectors for the first part of the exercise */
 
-li[class] {
+/* li[class] {
   color: var(--red);
 }
-
+ */
 li[id="cat"] {  /*exact search*/
   color: var(--teal);
 }
@@ -30,8 +30,16 @@ li[class$='g'] { /*suffix search*/
     color: var(--violet);
 }
 
+
+/* Use descendant, child, and sibling selectors for the second part */
 section li {
   color: var(--green);
 }
 
-/* Use descendant, child, and sibling selectors for the second part */
+.first ~ li { /* siblings adjacent to first are violet*/
+  color: var(--violet);
+}
+
+.second + li { /* next sibling affected*/
+ color: var(--royalblue);
+}
