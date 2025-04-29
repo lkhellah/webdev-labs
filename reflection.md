@@ -15,4 +15,6 @@
 
 ### CSS
 
-Enter your reflections on this section here.
+- I used the videos to complete the exercises
+- I found the exercises fun, and the videos helped explain the info well
+- selector specificty was a little confusing
