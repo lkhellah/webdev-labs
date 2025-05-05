@@ -18,3 +18,9 @@
 - I used the videos to complete the exercises
 - I found the exercises fun, and the videos helped explain the info well
 - selector specificty was a little confusing
+
+### flexbox , css-grid, bootstrap
+
+- I used the videos to complete the exercises
+- There were lots of exercises so I appreciated the in depth tutorial in the playlists 
+- I think everythig was explained well, and can't think of another practice to explain it better
