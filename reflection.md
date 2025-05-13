@@ -22,5 +22,11 @@
 ### flexbox , css-grid, bootstrap
 
 - I used the videos to complete the exercises
-- There were lots of exercises so I appreciated the in depth tutorial in the playlists 
+- There were lots of exercises so I appreciated the in depth tutorial in the playlists
 - I think everythig was explained well, and can't think of another practice to explain it better
+
+### Javascript
+
+- I used documentation and notes to complete the exercises.
+- This practice set was long but overall easy. I found it easier than last week's exercises.
+- I think the practice was straight forward, and can't think of other practice problems to supplement this set.

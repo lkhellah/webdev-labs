@@ -1,7 +1,15 @@
 const destructureItems = (input) => {
-  // destructure the name and parents of the character and format the output as shown
+  // Destructure the relevant values from the input object
+  const {
+    first,
+    last,
+    allegiance: {
+      parents: { mother, father },
+    },
+  } = input;
 
-  return input;
+  // Format the output string
+  return `${first} ${last}\n  daughter of\n  ${mother} and ${father}`;
 };
 
 const sansa = {
